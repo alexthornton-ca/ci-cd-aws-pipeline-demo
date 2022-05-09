@@ -18,8 +18,6 @@ export class CiCdAwsPipelineDemoStack extends cdk.Stack {
       })
     });
 
-/*
-
     const testingStage = pipeline.addStage(new MyPipelineAppStage(this, "test", {
       env: { account: "946862479453", region: "us-west-2" }
     }));
@@ -31,6 +29,6 @@ export class CiCdAwsPipelineDemoStack extends cdk.Stack {
     const prodStage = pipeline.addStage(new MyPipelineAppStage(this, "prod", {
       env: { account: "946862479453", region: "us-west-2" }
     }));
-    */
+
   }
 }
